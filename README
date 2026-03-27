@@ -1,0 +1,56 @@
+
+
+## Aim  
+To design and implement two independent backend services using Python Flask—one for customer operations and one for order management—demonstrating microservice architecture principles, in‑memory data handling, and deployment on Render.
+
+---
+
+## Theory  
+- **Microservices Architecture:**  
+  A software design approach where applications are built as a collection of small, loosely coupled services. Each service is independently deployable and scalable.  
+- **Flask Framework:**  
+  A lightweight Python web framework suitable for building RESTful APIs quickly.  
+- **In‑Memory Data Storage:**  
+  Instead of using a database, data is stored in variables during runtime. This simplifies testing and focuses on API functionality.  
+- **Deployment on Render:**  
+  Render is a cloud platform that allows easy deployment of web services with minimal configuration.  
+
+**Advantages of Microservices:**  
+- Independent development and deployment  
+- Better scalability and fault isolation  
+- Easier maintenance and modularity  
+
+---
+
+## Procedure  
+1. **Set up environment:** Install Python, Flask, and required libraries.  
+2. **Create Customer Service:**  
+   - Define endpoints to fetch customer orders.  
+   - Store customer data in Python dictionaries/lists.  
+3. **Create Order Service:**  
+   - Define endpoints to update order status.  
+   - Maintain order data in memory.  
+4. **Test APIs using Postman:**  
+   - Verify GET/POST requests for both services.  
+   - Check response formats (JSON).  
+5. **Documentation:**  
+   - Write a README.md explaining setup, endpoints, and usage.  
+   - Capture screenshots of Postman tests.  
+6. **Deployment:**  
+   - Push code to GitHub.  
+   - Deploy both services on Render.  
+   - Obtain demo links for verification.  
+7. **Submission:**  
+   - Package code, README, and screenshots into a zip file.  
+   - Share via provided Google Form link.  
+
+---
+
+## Learning Outcomes  
+- Understood the fundamentals of microservice architecture.  
+- Gained hands‑on experience in building REST APIs using Flask.  
+- Practiced in‑memory data handling for rapid prototyping.  
+- Learned how to test APIs using Postman.  
+- Acquired skills in deploying services on a cloud platform (Render).  
+- Developed documentation and submission workflow for academic/industrial projects.  
+
